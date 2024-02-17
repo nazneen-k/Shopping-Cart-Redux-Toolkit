@@ -1,0 +1,24 @@
+.navbar-container {
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  transform: perspective(200px) rotateX(0deg);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.navbar-brand,
+.navbar-link {
+  color: #424874 !important;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-link:hover {
+  color: #ff0000 !important;
+}
+
+.badge {
+  background-color: #ff0000 !important;
+}
